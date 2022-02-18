@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Patryk Czapiga Portfolio!</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <div><a href="#technologies" class="navButton" title="Technologies">Technologies</a></div>
+        <div><a href="#portfolio" class="navButton" title="Portfolio">Portfolio</a></div>
+        <div><a href="#contacts" class="navButton lastButton" title="Contacts">Contacts</a></div>
+    </nav>
+    <div class="nameAndDescription">
+        <div><h1>Patryk Czapiga</h1></div>
+        <div><h2>Java back-end developer</h2></div>
+    </div>
+</header>
+<section id="technologies">
+    <div><h1>Technologies</h1></div>
+    <table>
+        <tr>
+            <th class="rowTitle">Back-end</th>
+            <th class="rowContent">Java 17, Spring, Hibernate, JPA</th>
+        </tr>
+        <tr>
+            <th class="rowTitle">Front-end</th>
+            <th class="rowContent">HTML, CSS, Java-Script, REACT</th>
+        </tr>
+        <tr>
+            <th class="rowTitle">Databases</th>
+            <th class="rowContent">H2, SQlite</th>
+        </tr>
+        <tr>
+            <th class="rowTitle">DevOps</th>
+            <th class="rowContent">Git, Gradle, Docker</th>
+        </tr>
+    </table>
+</section>
+<section id="portfolio">
+    <div><h1>Portfolio</h1></div>
+    <div id="githubContainer">
+
+        <div>
+            <button type="button" onclick="recipes()" class="open.window"><img src="images/RecipesGitHub.png"
+                                                                               alt="Github logo"></button>
+        </div>
+        <div>
+            <button type="button" onclick="jetBrains()" class="open.window"><img src="images/JetBrainsGitHub.png"
+                                                                                 alt="Github logo"></button>
+        </div>
+    </div>
+</section>
+<section id="contacts">
+    <div><h1>Contact</h1></div>
+    <div id="contactContainer">
+        <div><a href="https://github.com/PatrykCzapiga" title="My GitHub"><img src="images/GitHub_icon.png"
+                                                                               alt="My GitHub" width="128" height="128"></a>
+        </div>
+        <div>You can reach me under my email: <a href="mailto:patrykczapiga@outlook.com">patrykczapiga@outlook.com</a>
+            or my mobile phone: <a href="tell:+48513344892">+48 513 344 892</a></div>
+        <div><a href="https://www.linkedin.com/in/patrykczapiga/" title="My Linkedin"><img
+                src="images/LinkedIn_icon.svg "
+                alt="My Linkedin" width="128"
+                height="128"></a></div>
+    </div>
+</section>
+<footer id="footer">
+    <div>Patryk Czapiga, 2022</div>
+</footer>
+
+<div class="recipesWindow">
+    <div class="centerField">
+        <div><h1>Recipes</h1></div>
+        <div>The project can be seen at the following link:<br><a href="https://github.com/PatrykCzapiga/Recipes">https://github.com/PatrykCzapiga/Recipes</a>
+        </div>
+        <div> While I was working on this project I learned a lot of new things for me.
+            The most important of them are: Spring Boot, Hibernate as well as the front end technologies like HTML CSS and JS
+            or even REACT
+        </div>
+        <div>
+            <button onclick="recipes()" class="open.window">Close</button>
+        </div>
+    </div>
+</div>
+
+<div class="jetBrainsWindow">
+    <div class="centerField">
+        <div><h1>Jet Brains Academy</h1></div>
+        <div> This repository can be found at the following link:<br><a
+                href="https://github.com/PatrykCzapiga/JetBrainsAcademy">https://github.com/PatrykCzapiga/JetBrainsAcademy</a>
+        </div>
+        <div>During the course I learned basics of Java. I acquired knowledge about classes, interfaces, arrays and so
+            on.
+            But in my opinion the most important was concept of object-oriented programing.
+        </div>
+
+        <div>
+            <button onclick="jetBrains()" class="open.window">Close</button>
+        </div>
+    </div>
+</div>
+<script src="scripts/main.js"></script>
+</body>
+</html>

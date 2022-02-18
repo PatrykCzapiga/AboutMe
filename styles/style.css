@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-family: "Roboto Mono";
+    display: flex;
+    flex-direction: column;
+    background-color: #6C6C6C;
+}
+
+header {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/images/AboutMe_Background.jpg");
+    background-size: cover;
+}
+
+nav {
+    height: 10vh;
+    padding-top: 1vh;
+    padding-right: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navButton {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    padding: 2vw;
+}
+
+.nameAndDescription {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameAndDescription h1 {
+    font-size: 5rem;
+}
+
+.nameAndDescription h2 {
+    font-size: 2rem;
+    padding-top: 5vh;
+}
+
+#technologies {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C6C6C;
+}
+
+#technologies h1 {
+    font-size: 3rem;
+}
+
+#technologies table {
+    padding-top: 20vh;
+    width: 40vw;
+}
+
+.rowTitle {
+    width: 15vw;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.rowContent {
+    width: 50vw;
+    font-size: 1rem;
+    text-align: left;
+}
+
+#portfolio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #16191A;
+}
+
+#portfolio h1 {
+    font-size: 3rem;
+}
+
+#portfolio #githubContainer {
+    display: flex;
+    padding-top: 20vh;
+}
+
+#portfolio #githubContainer button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+#contacts {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C6C6C;
+}
+
+#contacts h1 {
+    font-size: 3rem;
+}
+
+#contacts #contactContainer {
+    padding-top: 16vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts #contactContainer img {
+    padding: 1vw;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #16191A;
+    height: 10vh;
+    font-size: 1.5rem;
+}
+
+.recipesWindow {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.jetBrainsWindow {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.centerField {
+    padding: 5vh;
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(13, 17, 23);
+    border-radius: 15px;
+    color: rgb(131, 133, 149);
+}
+
+.centerField h1 {
+    color: rgb(83, 155, 225);
+}
+
+.centerField a {
+    text-decoration: none;
+    color: rgb(131, 133, 149);
+}
+
+.centerField button {
+    padding: 1vh 1vw 1vh 1vw;
+    background-color: rgb(131, 133, 149);
+    border-radius: 5px;
+}
+
+.show {
+    display: flex;
+}
