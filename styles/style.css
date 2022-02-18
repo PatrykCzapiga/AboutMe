@@ -5,7 +5,7 @@
 
 body {
     color: white;
-    font-family: "Roboto Mono";
+    font-family: "Roboto Mono", sans-serif;
     display: flex;
     flex-direction: column;
     background-color: #6C6C6C;
@@ -125,6 +125,10 @@ nav {
     font-size: 3rem;
 }
 
+.iconImage {
+    width: 7vw;
+    height: 7vw;
+}
 #contacts #contactContainer {
     padding-top: 16vh;
     display: flex;
