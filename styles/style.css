@@ -68,17 +68,17 @@ nav {
 
 #technologies table {
     padding-top: 20vh;
-    width: 40vw;
+    width: 50vw;
 }
 
 .rowTitle {
-    width: 15vw;
+    width: 20vw;
     font-size: 1.2rem;
     text-align: left;
 }
 
 .rowContent {
-    width: 50vw;
+    width: 60vw;
     font-size: 1rem;
     text-align: left;
 }
