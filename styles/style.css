@@ -16,7 +16,7 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
-    background-image: url("/images/AboutMe_Background.jpg");
+    background-image: url("../images/AboutMe_Background.jpg");
     background-size: cover;
 }
 
